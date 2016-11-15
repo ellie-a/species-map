@@ -1,0 +1,95 @@
+body {
+  text-align: center;
+}
+
+.map {
+  background-image: url('../img/map.jpg');
+  height: 600px;
+  width: 1200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.animal {
+  border-radius: 100%;
+  position: absolute;
+  width: 60px;
+  cursor: pointer;
+  border: 2px solid black;
+}
+
+.animal:hover {
+  filter: brightness(75%);
+}
+
+h1 {
+  font-size: 4em;
+}
+
+#ocelot {
+  left: 300px;
+  top: 240px;
+}
+
+#panda {
+  right: 255px;
+  top: 130px;
+}
+
+#wildass {
+  right: 480px;
+  top: 220px;
+}
+
+#humpback {
+  left: 100px;
+  bottom: 100px;
+}
+
+#sealion {
+  left: 150px;
+  top: 30px;
+}
+
+#kangaroo {
+  right: 175px;
+  bottom: 155px;
+}
+
+#argali {
+  right: 450px;
+  top: 35px;
+}
+
+#bison {
+  left: 275px;
+  top: 55px;
+}
+
+#wolf {
+  left: 350px;
+  bottom: 145px;
+}
+
+#zebra {
+  bottom: 200px;
+  right: 520px;
+}
+
+#addax {
+  bottom: 380px;
+  left: 550px;
+}
+
+.output {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.output h3 {
+  font-style: italic;
+}
