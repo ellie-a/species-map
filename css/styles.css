@@ -1,9 +1,15 @@
 body {
+  font-family: 'Open Sans', sans-serif;
+  background: #fff;
+}
+
+body > h1 {
   text-align: center;
+  color: rgb(147, 171, 153);
 }
 
 .map {
-  background-image: url('../img/map.jpg');
+  background-image: url('../img/map.png');
   height: 600px;
   width: 1200px;
   background-size: contain;
@@ -84,13 +90,469 @@ h1 {
   left: 550px;
 }
 
+#outputContainer {
+  margin-top: 20px;
+}
 .output {
-  width: 600px;
+  width: 800px;
+  height: 600px;
   margin-left: auto;
   margin-right: auto;
   display: none;
+  z-index: 20;
+  color: white;
+  border-radius: 20px;
 }
 
 .output h3 {
   font-style: italic;
+}
+
+
+.dark {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  position: relative;
+}
+
+#ocelotOutput {
+  background-image: url('../img/baby-ocelot.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#ocelotOutput h2 {
+  position: absolute;
+  left: 30px;
+  /*top: 10px;*/
+  font-size: 3em;
+}
+
+#ocelotOutput h3 {
+  position: absolute;
+  left: 30px;
+  top: 80px;
+}
+
+#ocelotOutput p {
+  position: absolute;
+  left: 30px;
+  top: 150px;
+  width: 200px;
+}
+
+#ocelotOutput h4 {
+  position: absolute;
+  left: 30px;
+  top: 105px;
+}
+
+#ocelotOutput img {
+  position: absolute;
+  left: 30px;
+  bottom: 40px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+#pandaOutput {
+  background-image: url('../img/baby-panda.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#pandaOutput h2 {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  font-size: 3em;
+}
+
+#pandaOutput h3 {
+  position: absolute;
+  top: 80px;
+  right: 20px;
+}
+
+#pandaOutput h4 {
+  position: absolute;
+  top: 105px;
+  right: 20px;
+}
+
+#pandaOutput p {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  width: 350px;
+}
+
+#pandaOutput img {
+  position: absolute;
+  right: 20px;
+  bottom: 30px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+#wildassOutput {
+  background-image: url('../img/baby-ass.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#wildassOutput h2 {
+  position: absolute;
+  top: -20px;
+  left: 20px;
+  font-size: 3em;
+}
+
+#wildassOutput h3 {
+  position: absolute;
+  top: 65px;
+  left: 20px;
+}
+
+#wildassOutput h4 {
+  position: absolute;
+  top: 95px;
+  left: 20px;
+}
+
+#wildassOutput p {
+  position: absolute;
+  left: 20px;
+  bottom: 10px;
+  width: 300px;
+}
+
+#wildassOutput img {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+#humpbackOutput {
+  background-image: url('../img/baby-humpback.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#humpbackOutput h2 {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  font-size: 3em;
+}
+
+#humpbackOutput h3 {
+  position: absolute;
+  top: 85px;
+  left: 20px;
+}
+
+#humpbackOutput h4 {
+  position: absolute;
+  top: 115px;
+  left: 20px;
+}
+
+#humpbackOutput p {
+  position: absolute;
+  right: 40px;
+  bottom: 20px;
+  width: 300px;
+}
+
+#humpbackOutput img {
+  position: absolute;
+  left: 30px;
+  bottom: 70px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+#sealionOutput {
+  background-image: url('../img/sealionpup.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#sealionOutput h2 {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  font-size: 3em;
+}
+
+#sealionOutput h3 {
+  position: absolute;
+  top: 85px;
+  right: 20px;
+}
+
+#sealionOutput h4 {
+  position: absolute;
+  top: 115px;
+  right: 20px;
+}
+
+#sealionOutput p {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  width: 300px;
+}
+
+#sealionOutput img {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  width: 400px;
+  border-radius: 5px;
+}
+
+#kangarooOutput {
+  background-image: url('../img/baby-kangaroo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#kangarooOutput h2 {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  font-size: 3em;
+}
+
+#kangarooOutput h3 {
+  position: absolute;
+  top: 85px;
+  right: 20px;
+}
+
+#kangarooOutput h4 {
+  position: absolute;
+  top: 115px;
+  right: 20px;
+}
+
+#kangarooOutput p {
+  position: absolute;
+  left: 20px;
+  bottom: 10px;
+  width: 300px;
+}
+
+#kangarooOutput img {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+#argaliOutput {
+  background-image: url('../img/baby-argali.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#argaliOutput h2 {
+  position: absolute;
+  top: 0;
+  right: 40px;
+  font-size: 3em;
+}
+
+#argaliOutput h3 {
+  position: absolute;
+  top: 85px;
+  right: 40px;
+}
+
+#argaliOutput h4 {
+  position: absolute;
+  top: 115px;
+  right: 40px;
+}
+
+#argaliOutput p {
+  position: absolute;
+  left: 20px;
+  bottom: 10px;
+  width: 300px;
+}
+
+#argaliOutput img {
+  position: absolute;
+  left: 20px;
+  top: 100px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+#bisonOutput {
+  background-image: url('../img/baby-bison.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#bisonOutput h2 {
+  position: absolute;
+  top: 0;
+  left: 40px;
+  font-size: 3em;
+}
+
+#bisonOutput h3 {
+  position: absolute;
+  top: 85px;
+  left: 40px;
+}
+
+#bisonOutput h4 {
+  position: absolute;
+  top: 115px;
+  left: 40px;
+}
+
+#bisonOutput p {
+  position: absolute;
+  left: 20px;
+  bottom: 10px;
+  width: 300px;
+}
+
+#bisonOutput img {
+  position: absolute;
+  left: 20px;
+  top: 200px;
+  width: 220px;
+  border-radius: 5px;
+}
+
+#wolfOutput {
+  background-image: url('../img/baby-wolf.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#wolfOutput h2 {
+  position: absolute;
+  top: 0;
+  left: 40px;
+  font-size: 3em;
+}
+
+#wolfOutput h3 {
+  position: absolute;
+  top: 85px;
+  left: 40px;
+}
+
+#wolfOutput h4 {
+  position: absolute;
+  top: 115px;
+  left: 40px;
+}
+
+#wolfOutput p {
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+  width: 220px;
+}
+
+#wolfOutput img {
+  position: absolute;
+  left: 20px;
+  bottom: 25px;
+  width: 215px;
+  border-radius: 5px;
+}
+
+#zebraOutput {
+  background-image: url('../img/baby-zebra.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#zebraOutput h2 {
+  position: absolute;
+  top: 0;
+  right: 40px;
+  font-size: 3em;
+}
+
+#zebraOutput h3 {
+  position: absolute;
+  top: 85px;
+  right: 40px;
+}
+
+#zebraOutput h4 {
+  position: absolute;
+  top: 115px;
+  right: 40px;
+}
+
+#zebraOutput p {
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+  width: 220px;
+}
+
+#zebraOutput img {
+  position: absolute;
+  left: 20px;
+  bottom: 110px;
+  width: 215px;
+  border-radius: 5px;
+}
+
+#addaxOutput {
+  background-image: url('../img/baby-addax.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#addaxOutput h2 {
+  position: absolute;
+  top: 10px;
+  right: 40px;
+  font-size: 3em;
+  margin: 0;
+}
+
+#addaxOutput h3 {
+  position: absolute;
+  top: 55px;
+  right: 40px;
+}
+
+#addaxOutput h4 {
+  position: absolute;
+  top: 85px;
+  right: 40px;
+}
+
+#addaxOutput p {
+  position: absolute;
+  left: 20px;
+  bottom: 10px;
+  width: 220px;
+}
+
+#addaxOutput img {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 215px;
 }

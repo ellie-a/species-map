@@ -1,46 +1,46 @@
 $(function() {
-  $("#ocelot").click(function() {
-    $("#ocelotOutput").show();
+  $("#ocelot").hover(function() {
+    $("#ocelotOutput").fadeIn();
     $("#ocelotOutput").siblings().hide();
   })
-  $("#panda").click(function() {
-    $("#pandaOutput").show();
+  $("#panda").hover(function() {
+    $("#pandaOutput").fadeIn();
     $("#pandaOutput").siblings().hide();
   })
-  $("#wildass").click(function() {
-    $("#wildassOutput").show();
+  $("#wildass").hover(function() {
+    $("#wildassOutput").fadeIn();
     $("#wildassOutput").siblings().hide();
   })
-  $("#humpback").click(function() {
-    $("#humpbackOutput").show();
+  $("#humpback").hover(function() {
+    $("#humpbackOutput").fadeIn();
     $("#humpbackOutput").siblings().hide();
   })
-  $("#sealion").click(function() {
-    $("#sealionOutput").show();
+  $("#sealion").hover(function() {
+    $("#sealionOutput").fadeIn();
     $("#sealionOutput").siblings().hide();
   })
-  $("#kangaroo").click(function() {
-    $("#kangarooOutput").show();
+  $("#kangaroo").hover(function() {
+    $("#kangarooOutput").fadeIn();
     $("#kangarooOutput").siblings().hide();
   })
-  $("#argali").click(function() {
-    $("#argaliOutput").show();
+  $("#argali").hover(function() {
+    $("#argaliOutput").fadeIn();
     $("#argaliOutput").siblings().hide();
   })
-  $("#bison").click(function() {
-    $("#bisonOutput").show();
+  $("#bison").hover(function() {
+    $("#bisonOutput").fadeIn();
     $("#bisonOutput").siblings().hide();
   })
-  $("#wolf").click(function() {
-    $("#wolfOutput").show();
+  $("#wolf").hover(function() {
+    $("#wolfOutput").fadeIn();
     $("#wolfOutput").siblings().hide();
   })
-  $("#zebra").click(function() {
-    $("#zebraOutput").show();
+  $("#zebra").hover(function() {
+    $("#zebraOutput").fadeIn();
     $("#zebraOutput").siblings().hide();
   })
-  $("#addax").click(function() {
-    $("#addaxOutput").show();
+  $("#addax").hover(function() {
+    $("#addaxOutput").fadeIn();
     $("#addaxOutput").siblings().hide();
   })
 
